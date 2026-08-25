@@ -1,0 +1,25 @@
+;; facts.edn — GLEIF LEI レコードから取り込んだ法人レベルの事実。
+;; 生成物: scripts/lei-gleif-ingest.cljs（手編集しない）。
+;; 出典 https://api.gleif.org/api/v1/lei-records/2549005O5PVA2JCH6Q33 を 2026-08-25 に GET（HTTP 200）。応答本文の sha256 を同梱。
+;; fact/conflict は blueprint.edn の既存値と食い違った key。どちらも消していない。
+[["gleif-2549005o5pva2jch6q33" "company/lei" "2549005O5PVA2JCH6Q33" 1 :add]
+ ["gleif-2549005o5pva2jch6q33" "fact/source-url" "https://api.gleif.org/api/v1/lei-records/2549005O5PVA2JCH6Q33" 1 :add]
+ ["gleif-2549005o5pva2jch6q33" "fact/retrieved-at" "2026-08-25" 1 :add]
+ ["gleif-2549005o5pva2jch6q33" "fact/response-sha256" "9c0b918bd58f883d84c2c0edfcc99f8cd9c7f37b6677517f30d1711a83a611ea" 1 :add]
+ ["gleif-2549005o5pva2jch6q33" "source/dataset" "cloud-itonami-lei-gleif" 1 :add]
+ ["gleif-2549005o5pva2jch6q33" "gleif/legal-name" "ComfortDelGro Corporation Limited" 1 :add]
+ ["gleif-2549005o5pva2jch6q33" "gleif/legal-address" "205 Braddell Road, 579701, Singapore, SG" 1 :add]
+ ["gleif-2549005o5pva2jch6q33" "gleif/headquarters-address" "205 Braddell Road, 579701, Singapore, SG" 1 :add]
+ ["gleif-2549005o5pva2jch6q33" "gleif/registered-as" "200300002K" 1 :add]
+ ["gleif-2549005o5pva2jch6q33" "gleif/registration-authority" "RA000523" 1 :add]
+ ["gleif-2549005o5pva2jch6q33" "gleif/jurisdiction" "SG" 1 :add]
+ ["gleif-2549005o5pva2jch6q33" "gleif/category" "GENERAL" 1 :add]
+ ["gleif-2549005o5pva2jch6q33" "gleif/legal-form-elf" "VVOX" 1 :add]
+ ["gleif-2549005o5pva2jch6q33" "gleif/entity-status" "ACTIVE" 1 :add]
+ ["gleif-2549005o5pva2jch6q33" "gleif/entity-creation-date" "2003-01-01T00:00:00Z" 1 :add]
+ ["gleif-2549005o5pva2jch6q33" "gleif/registration-status" "LAPSED" 1 :add]
+ ["gleif-2549005o5pva2jch6q33" "gleif/initial-registration-date" "2018-11-23T20:22:50Z" 1 :add]
+ ["gleif-2549005o5pva2jch6q33" "gleif/last-update-date" "2026-02-23T12:01:44Z" 1 :add]
+ ["gleif-2549005o5pva2jch6q33" "gleif/next-renewal-date" "2022-10-25T19:15:10Z" 1 :add]
+ ["gleif-2549005o5pva2jch6q33" "gleif/managing-lou" "5493001KJTIIGC8Y1R12" 1 :add]
+ ["gleif-2549005o5pva2jch6q33" "gleif/corroboration-level" "FULLY_CORROBORATED" 1 :add]]
